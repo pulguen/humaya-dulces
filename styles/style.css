@@ -1,0 +1,270 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Colors */
+
+:root {
+    --primary-color: #4f6d3a;
+    --secundary-color: #8cb360;
+    --alternative-color: #fc9fb1;
+    --dark-color: #000E00;
+    --ligth-color: #e3e3e3;
+}
+
+body{
+    background-color: var(--dark-color);
+}
+
+.navbar{
+    background-color: var(--dark-color);
+}
+
+/*presentacion*/
+.presentacion {
+    width: 100%;
+    height: 400px;
+    background-image: url("../images/imagenCentral.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex; /* Convertir en un contenedor flexible */
+    align-items: center; /* Centrar verticalmente los elementos hijos */
+}
+
+.presentacion-info {
+    margin-left: 20px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    color: var(--ligth-color);
+}
+
+.presentacion-info h1{
+    font-weight: 700;
+    color: var(--primary-color);
+    text-shadow: 
+    -1px -1px 0 var(--ligth-color),  
+     1px -1px 0 var(--ligth-color),
+    -1px  1px 0 var(--ligth-color),
+     1px  1px 0 var(--ligth-color); 
+}
+
+.presentacion-info p{
+    font-size: 14pt;
+    font-weight: 500;
+    line-height:16pt;
+    color: var(--dark-color);
+}
+
+.presentacion-info button {
+    width: 160px;
+    height: 40px;
+    color:var(--ligth-color);
+    background-color: var(--primary-color);
+}
+
+/* nuestros productos*/ 
+
+.titulo-seccion{
+    margin: 16px;
+    font-weight: 700;
+    font-size: 20pt;
+    color: var(--ligth-color);
+}
+
+.titulo-producto{
+    font-size: 22pt;    
+    color: var(--primary-color);
+    text-shadow: 
+        -1px -1px 0 var(--ligth-color),  
+         1px -1px 0 var(--ligth-color),
+        -1px  1px 0 var(--ligth-color),
+         1px  1px 0 var(--ligth-color);
+}
+
+.p-producto{
+    font-size: 18pt;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: var(--dark-color);
+    text-shadow: 
+        -1px -1px 0 var(--alternative-color);
+}
+
+/* Agrega esta regla para cambiar el color de los botones del carrousel */
+.carousel-control-prev,
+.carousel-control-next {
+    background-color:var(--primary-color);
+    border: none;
+}
+
+/* Descacados */
+
+.contenedor-destacado{
+    background-color: var(--primary-color);   
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.destacado-info{
+    color: var(--primary-color);
+    padding-left: 10px;
+}
+
+.destacado-info h3 {
+    font-size: 30pt;    
+    color: var(--primary-color);
+    text-shadow: 
+        -1px -1px 0 var(--ligth-color),  
+         1px -1px 0 var(--ligth-color),
+        -1px  1px 0 var(--ligth-color),
+         1px  1px 0 var(--ligth-color);
+}
+
+.destacado-info p {
+    color: var(--ligth-color);
+    font-size: 14pt;
+    font-weight: 400;   
+}
+
+.destacado-info ul{
+    color: var(--ligth-color);
+    font-size: 14pt;
+    font-style: oblique;
+}
+
+
+.descatado-p2{
+    font-style: oblique;
+}
+
+.destacado-img img{
+    margin: 0;
+    width: 100%;
+}
+
+/* Mejro calidad */
+
+.productosSection {
+    color: var(--ligth-color);
+}
+
+.calidadAtributos {
+    padding: 2rem;
+}
+
+.icono {
+    width: 80px;
+    filter: invert(0.5) sepia(1);
+}
+
+.icono:hover {
+    filter: invert(1);
+}
+
+.textoCalidad { 
+    color: var(--dark-color);
+    text-shadow: 
+        -1px -1px 0 var(--primary-color),  
+         1px -1px 0 var(--primary-color),
+        -1px  1px 0 var(--primary-color),
+         1px  1px 0 var(--primary-color);
+    
+    font-size: 16pt;
+    margin-top: 10px;
+}
+
+
+/* Contacto */
+
+.contacto-section{
+    background-color: var(--ligth-color);
+    padding-left: 10px;
+}
+
+.contacto-titulo{
+    font-size: 14pt;
+    font-weight: 700;
+    color: var(--primary-color);
+
+}
+
+
+/* Recetas */
+
+.card{
+    background-color: var(--alternative-color);
+}
+
+.card-body p{
+    color: var(--dark-color);
+    font-size: 11pt;    
+}
+
+.card-body h4{
+    color: var(--primary-color);
+}
+
+/* footer */
+
+footer {
+    color: var(--ligth-color);
+    background-color: var(--dark-color); /* Puedes cambiar el color de fondo según tus preferencias */
+    padding: 20px 5px 20px 5px;
+}
+
+.footer-logo {
+    max-width: 100px; /* Ajusta el ancho máximo según tus necesidades */
+    margin-bottom: 15px;
+}
+
+.list-unstyled a{
+    font-size: 12pt;
+    color: var(--secundary-color);
+}
+
+.list-unstyled li{
+    margin-top: 20px;
+}
+
+
+.footer-social-icons {
+    display: flex;
+    flex-direction: column;
+  }
+
+.footer-social-icons a{
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+
+.btn{
+    color: var(--ligth-color);
+    background-color: var(--primary-color);
+}
+
+.btn:hover{
+    background-color: var(--secundary-color);
+}
+
+.btn-primary{
+    border-color: var(--ligth-color);
+}
+
+.btn-info{
+    border-color:var(--ligth-color)
+}
+
+@media (min-width: 1025px) {
+    body {
+            max-width: 1024px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+
+    
+
+

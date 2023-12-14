@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+    rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+    crossorigin="anonymous">
+
+  <link rel="stylesheet" href="./styles/style.css">
+  <title>Humaya Dulces</title>
+</head>
+<body class="container-fluid bg-dark">
+  <header>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand text-white" href="#"><img src="images/LogoMenu60x48.png" alt="">Humaya</a>
+        <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="#4f6d3a"" class="bi bi-list"
+            viewBox="0 0 16 16">
+            <path fill-rule="evenodd"
+              d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
+          </svg>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active text-white" aria-current="page" href="/index.html">Home</a>
+            <a class="nav-link text-white" href="#nuestro-productos">Nuestros Productos</a>
+            <a class="nav-link text-white" href="#destacado">Destacado</a>       
+            <a class="nav-link text-white" aria-disabled="true" href="#contacto">Contacto</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="presentacion">
+      <div class="presentacion-info">
+        <h1>Dulces del alma</h1>
+        <p>Los productos HUMAYA son elaborados desde hace más de 50 años, fiel a las tradiciones familiares y sabores
+          caceros, acompañándote en los momentos más importantes de la vida.</p>
+        <button type="button" class="btn btn-primary">CONOCENOS</button>
+      </div>
+    </div>
+  </header>
+  <main>
+
+    <h2 class="titulo-seccion" id="nuestro-productos">Nuestros Productos</h2>
+
+    <div id="carouselExampleDark" class="carousel carousel-dark slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner ">
+          <div class="carousel-item active " data-bs-interval="10000">
+            <img src="./images/Producto1.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-md-block">
+              <h4 class="text-center text-uppercase fw-bold titulo-producto">Dulce de leche tradicional</h4>
+              <p class="d-none d-md-block p-producto">Elaboración artesanal de principio a fin, con un sabor intenso, receta tradicional.</p>              
+              <button class="btn">+INFO</button>
+            </div>
+          </div>
+          <div class="carousel-item " data-bs-interval="2000">
+            <img src="./images/Producto2.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-md-block">
+              <h4 class="text-center text-uppercase fw-bold titulo-producto">Dulce de leche sin azúcar</h4>
+              <p class="d-none d-md-block p-producto">Elaboración artesanal para cuidar la silueta sin renunciar a nada, endulzado naturalmente con stevia.</p>
+              <button class="btn">+INFO</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./images/Producto3.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-md-block">
+              <h4 class="text-center text-uppercase fw-bold titulo-producto">Dulce choconutt</h4>
+              <p class="d-none d-md-block p-producto">Elaboración artesanal para el capricho dulce, combinación de dulce de leche, chocolate y pasta de avellanas. una delicia única.</p>
+              <button class="btn">+INFO</button>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon " fill="#e3e3e3" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    <h2 class="titulo-seccion" id="destacado">Destacado de mes</h2>
+      
+    <div class="contenedor-destacado row">
+      <div class="col-lg-6">
+        <div class="destacado-info mt-3">
+          <h3 class="p-producto">Alfajores de maicena</h3>
+          <p>Alfajores de dulce con coco rallado, relleno con 2cm de pura dulzura. Opciones para elegir:</p>
+          <ul>
+            <li>Dulce de leche tradicional</li>
+            <li>Light</li>
+            <li>Choconuut</li>
+          </ul>
+          <p class="descatado-p2"><strong> Presentación en caja de 6 y 12 alfajores.</strong></p>
+          <button class="btn btn-info">+INFO</button>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="destacado-img m-3">
+          <img src="./images/maicena.png" alt="maicena" class="img-fluid">
+        </div>
+      </div>
+    </div>
+    
+
+    <h2 class="titulo-seccion" id="calidad">Contamos con la mejor calidad</h2>
+
+      <section class="productosSection">
+        <div class="calidad container">
+            <div class="calidadAtributos row justify-content-between">
+                <div class="col-md-4 text-center">
+                    <img class="icono mx-auto d-block" src="./images/organic.png" alt="">
+                    <h4 class="textoCalidad">100% orgánico</h4>
+                </div>
+                <div class="col-md-4 text-center">
+                    <img class="icono mx-auto d-block" src="./images/sin_tacc.png" alt="">
+                    <h4 class="textoCalidad">sin tacc</h4>
+                </div>
+                <div class="col-md-4 text-center">
+                    <img class="icono mx-auto d-block" src="./images/sin_aditivos.png" alt="">
+                    <h4 class="textoCalidad">sin conservantes</h4>
+                </div>
+            </div>
+        </div>
+      </section>
+
+    <h2 class="titulo-seccion" id="contacto">Contactanos</h2>
+
+      <div class="container-fluid">
+        <div class="row justify-content-center contacto-section">
+          <div class="col-md-6 mb-3">
+            <h5 class="mt-3">Deja tu consulta y nos contactaremos a la brevedad:</h4>
+            <form action="#" method="post">
+              <div class="form-group">
+                <label for="nombre" class="contacto-titulo mt-2">Nombre:</label>
+                <input type="text" class="form-control mt-1" id="nombre" name="nombre" placeholder="Ingrese su nombre" required>
+              </div>
+              <div class="form-group">
+                <label for="email" class="mt-2 contacto-titulo">Correo Electrónico:</label>
+                <input type="email" class="form-control mt-1" id="email" name="email" placeholder="Ingrese su correo electrónico" required>
+              </div>
+              <div class="form-group">
+                <label for="consulta" class="mt-2 contacto-titulo">Consulta:</label>
+                <textarea class="form-control mt-1" id="consulta" name="consulta" placeholder="Escriba su consulta aquí" rows="4" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary btn-block mt-3">Enviar</button>
+            </form>
+          </div>
+          <div class="col-md-6 d-flex justify-content-center align-items-center">
+            <img src="./images/contact-img.png" alt="Imagen de contacto" class="img-fluid w-100 my-3 my-sm-3">
+        </div>
+        </div>
+      </div>
+
+    <h2 class="titulo-seccion" id="recetas">Recetas</h2>
+
+    <div class="container mt-4">
+      <div class="row">
+          <div class="col-md-4 mb-4">
+              <div class="card">
+                  <img src="./images/recetas1.png" class="card-img-top img-fluid" alt="Imagen 1">
+                  <div class="card-body">
+                      <h4 class="card-title">Conitos</h4>
+                      <p class="card-text">Una deliciosa opción para acompañar las meriendas, ese antojo de media noche o compartir con amigos.</p>
+                      <button type="submit" class="btn btn-block mt-3">Ver preparación</button>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-4 mb-4">
+              <div class="card">
+                  <img src="./images/recetas2.png" class="card-img-top" alt="Imagen 2">
+                  <div class="card-body">
+                      <h4 class="card-title">Pepas</h4>
+                      <p class="card-text">Las galletitas más tiernas y ricas. rellenas de dulce de leche, ideales para el mate y la hora del té.</p>
+                      <button type="submit" class="btn btn-block mt-3">Ver preparación</button>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-4 mb-4">
+              <div class="card">
+                  <img src="./images/recetas3.png" class="card-img-top" alt="Imagen 3">
+                  <div class="card-body">
+                      <h4 class="card-title">Torta Nutt</h4>
+                      <p class="card-text">La torta de tres capas más sabrosas del mundo, combina una base de vainilla, dulce de leche y cubierta de choconuut.</p>
+                      <button type="submit" class="btn btn-block mt-3">Ver preparación</button>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </div>
+
+    <footer class="mt-5">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-2">
+            <img src="./images/LogoHumaya100x100.png" alt="Logo" class="img-fluid footer-logo">
+          </div>
+          <div class="col-md-2">
+            <h5>Menú</h5>
+            <ul class="list-unstyled">
+              <li><a href="#">Home</a></li>
+              <li><a href="#nuestro-productos">Productos</a></li>
+              <li><a href="#destacado">Destacado</a></li>
+              <li><a href="#contacto">Contacto</a></li>
+            </ul>
+          </div>
+          <div class="col-md-2">
+            <h5>Navegación</h5>
+            <ul class="list-unstyled">
+              <li><a href="#">FAQ</a></li>
+              <li ><a href="#">Distribuidores</a></li>
+              <li><a href="#">Prensa</a></li>
+              <li><a href="#">Recetas Exclusicas</a></li>
+            </ul>
+          </div>
+          <div class="col-md-2">
+            <h5>Redes</h5>
+            <div class="footer-social-icons">
+              <a href="#" class="text-white"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+                </svg>
+              </a>
+              <a href="#" class="text-white"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15"/>
+              </svg></a>
+              <a href="#" class="text-white"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+              </svg></a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <h5>Dirección</h5>
+            <p>Montes de Oca 2356, CABA, Argentina</p>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6485.318766420003!2d-58.476668116944374!3d-34.590232449154215!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb613464b4e7d%3A0x2fff17eb612bb5a4!2sComuna%2015%2C%20Arismendi%202889%2C%20C1427%20CABA!5e0!3m2!1ses!2sar!4v1701620465533!5m2!1ses!2sar"
+              width="100%" height="140" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  </main>
+</body>
+
+</html>
